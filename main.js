@@ -40,36 +40,8 @@ $(document).ready(function () {
             clas: 1,
             email: "ha@5.com",
         },
-        {
-            firstName: "ha",
-            lastName: "dhib",
-            clas: 1,
-            email: "ha@5.com",
-        },
-        {
-            firstName: "ha",
-            lastName: "dhib",
-            clas: 1,
-            email: "ha@5.com",
-        },
-        {
-            firstName: "ha",
-            lastName: "dhib",
-            clas: 1,
-            email: "ha@5.com",
-        },
-        {
-            firstName: "ha",
-            lastName: "dhib",
-            clas: 1,
-            email: "ha@5.com",
-        },
-        {
-            firstName: "ha",
-            lastName: "dhib",
-            clas: 1,
-            email: "ha@5.com",
-        },
+        
+        
         
     ];
 
