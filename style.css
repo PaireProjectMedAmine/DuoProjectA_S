@@ -1,0 +1,96 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    display: flex;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header a.logo {
+    margin-left: 13px;
+    font-family: cursive;
+    color: rgb(29, 29, 37);
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .header-right {
+    float: right;
+    margin-right: 85px;
+    font-family: cursive;
+  }
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  #logo1{
+    display: flex;
+  }
+  #logoschool{
+    margin-left: 140px;
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+  }
+  .card {
+    display: grid;
+    height: 150px;
+    flex: 1;
+    border-radius: 10%;
+    border: 1px solid #1e1c1c;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 23px;
+  }
+  
+  #row {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+  }
+
+  #card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #btn1{
+    margin-top: 5px ;
+  }
+  #btn2{
+
+    margin-top: 15px;
+  }
+  #centerButton {
+    
+}
+  
