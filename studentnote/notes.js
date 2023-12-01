@@ -59,7 +59,7 @@ $(document).ready(function () {
        }
     }
     $('#btn').on('click',function () {
-        window.location.href = 'index.html'
+        window.location.href = '../admin/index.html'
     })
     
            // this is for the display of student  from the mvp to the low !! 

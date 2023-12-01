@@ -28,6 +28,6 @@ $(document).ready(function () {
 $("#btn").on('click',function () {
  var a = addstudent()
  saveDataStudentFirst(a)
- window.location.href = 'index.html'
+ window.location.href = '../admin/index.html'
 })
 })

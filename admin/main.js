@@ -151,11 +151,12 @@ $(document).ready(function () {
                     console.log('done add for the update');
                 }
             }
-            window.location.href = 'updateStudent.html';
+            window.location.href = '../studentUpdate/updateStudent.html';
         });
     }
     document.querySelector('#create-button').onclick = function () {
-        window.location.href = 'CreateStudent.html'
+        window.location.href = '../studentCreation/CreateStudent.html'
     }
     DisplayStudent()
 });
+

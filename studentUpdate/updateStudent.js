@@ -28,7 +28,7 @@ $(document).ready(function () {
         var a = JSON.stringify(StudentArray)
         localStorage.clear()
         localStorage.setItem('StudentArr',a)
-        window.location.href='index.html'
+        window.location.href='../admin/index.html'
     })
 })
    
