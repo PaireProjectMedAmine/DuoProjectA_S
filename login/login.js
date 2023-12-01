@@ -1,6 +1,6 @@
 var adminEmail = "dhibamine"
 var adminPassword = "123"
-
+//check if the user is the admin ! 
 function login() {
     var enteredEmail = document.getElementById('username').value
     var enteredPassword = document.getElementById('password').value

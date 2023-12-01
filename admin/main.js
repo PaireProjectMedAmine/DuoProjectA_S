@@ -27,14 +27,6 @@ $(document).ready(function () {
         localStorage.setItem('StudentArr',JSON.stringify(array))
         console.log('done')
     }
-    /* console.log(ar);
-    console.log("inital ar", ar);
-    
-    console.log(555);  */
-
-    
-   
-
     // Function for creating students
     function createStudent(firstName, lastName, clas, email) {
         var obj = {
