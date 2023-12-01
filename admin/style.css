@@ -1,13 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  /* background-image: url(); */
-  background-color: rgba(238, 8, 8, 0.1);
+   background-color: linear-gradient(to bottom, #33ccff 0%, #66ff99 100%) 
 }
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: rgba(72, 236, 121,0.8);
   padding: 5px 10px;
 }
 
@@ -19,24 +18,19 @@ body {
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 30px;
   border-radius: 4px;
 }
 
 .header a.logo {
-  margin-left: 13px;
+ 
   font-family: cursive;
   color: rgb(29, 29, 37);
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color: rgba(77, 174, 58, 0.763)3;
   color: black;
-}
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
 }
 
 .header-right {
@@ -44,18 +38,6 @@ body {
   margin-right: 85px;
   font-family: cursive;
 }
-
-@media screen and (max-width: 500px) {
-  .header a {
-      float: none;
-      display: block;
-      text-align: left;
-  }
-  .header-right {
-      float: none;
-  }
-}
-
 #logo1 {
   display: flex;
 }
@@ -67,10 +49,11 @@ body {
   margin-top: 7px;
 }
 .center-text {
-  height: 20px;
+  height: 32px;
   text-align: center;
+  justify-content: center;
   background-color: black;
-  color: #ddd;
+  background-color: #66ff99f0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*center the container of the button */
@@ -105,16 +88,43 @@ body {
 
 .div-btn-1 {
   margin-top: 5px;
+  
 }
 
 .div-btn-2{
   margin-top: 15px;
   margin-bottom: 4px;
 }
-
+.btn-update{
+  background-color: lightskyblue;
+    height: 27px;
+    width: 150px;
+    color: #fcfbff;
+    border: hidden;
+    cursor: pointer;
+} 
+.btn-delete{
+  background-color: lightskyblue;
+  height: 27px;
+  width: 150px;
+  color: #fcfbff;
+  border: hidden;
+  cursor: pointer;
+}
 #centerButton {
   margin-top: 20px;
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
+}
+#create-button{
+  background-color: rgb(164, 250, 135);
+  height: 50px;
+  width: 250px;
+  color: #461ad7;
+  border: hidden;
+  cursor: pointer;
+}
+.ab{
+  font-family: cursive;
 }

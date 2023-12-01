@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #33ccff 0%, #66ff99 100%);
+    background-size: 100vh; 
     margin: 0;
     padding: 0;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    font-family: cursive;
+    color: #393636;
 }
 
 .student-list {
@@ -37,6 +39,7 @@ h1 {
 
 .moyenne {
     font-weight: bold;
+    color: red;
 }
 #btn{
     width: 217px;
@@ -44,6 +47,8 @@ h1 {
     font-family: cursive;
     font-size: larger;
     color: white;
-    margin-left: 597px;
+    border-bottom: #ffffff00;
+    border-radius: 4%;
+    margin-left: 625px
 
 }

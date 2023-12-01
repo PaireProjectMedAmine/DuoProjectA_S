@@ -113,10 +113,10 @@ $(document).ready(function () {
         console.log(arr);
         for (let i = 0; i < arr.length; i++) {
             $("#row").append(`<div id="card">
-            <img src="/images/maleStudent.png" alt="">  
-            <div>${arr[i].firstname}</div>
-            <div>${arr[i].lastname}</div>
-            <div>${arr[i].cla}</div>
+            <img src="/images/maleStudent.png" alt="" style ="width: 118px;">  
+            <div class = "ab"> First name : ${arr[i].firstname}</div>
+            <div class = "ab"> Last name :${arr[i].lastname}</div>
+            <div class = "ab"> class : ${arr[i].cla}</div>
             <div class="btn">
                 <div class="div-btn-1">
                     <button class="btn-update" type="button" value="${i}">Update</button>
