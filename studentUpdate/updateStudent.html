@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Student Information</title>
+    <link rel="stylesheet" href="updateStudent.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+   
+    <form id="updateForm">
+
+        <h1><center>hello admin what's  rate you want to add to ? </center></h1>
+        <label for="Math note">Math note:</label>
+
+        <input type="number" id="Mathnote" name="Mathnote" min="0" max="100" required>
+
+        <label for="Algo note">Algo note:</label>
+        <input type="number" id="Algonote" name="Algonote" min="0" max="100" required>
+
+        <label for="englishnote">english note:</label>
+        <input type="number" id="englishnote" name="englishnote" min="0" max="100" required>
+
+        <label for="softskills">soft skills:</label>
+        <input type="number" id="softskills" name="softskills" min="0" max="100" required>
+
+        <label for="status">Status</label>
+        <input type="text" id="status" name="status">
+        <button type="button" id="button">Update Student</button>
+    </form>
+
+</body>
+    <script src="updateStudent.js"></script>
+</html>
